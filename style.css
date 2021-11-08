@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color:gainsboro;
+}
+.container{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 5px 0px 5px 0px;
+   
+}
+.logo{
+    
+    width: 20%;
+}
+.logo h1{
+    margin: 15px;
+}
+.search{
+    background-color: white;
+    width: 60%;
+}
+.search input{
+    width:88%;
+    outline: none;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+.search input[type=search]{
+    padding-left: 10px;
+}
+.search button{
+    height:30px ;
+    width: 8%;
+    outline: none;
+}
+
+
+
+.navbar nav ul {
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: capitalize;
+    background-color: rgb(47, 153, 47);
+    padding: 15px;
+}
+
+nav  li {
+    font-size: large;
+    background-color: rgb(47, 153, 47);
+    color: white;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(47, 153, 47);
+    padding: 15px;
+}
+
+li a:hover{
+    background-color: rgb(10, 78, 10);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width: 20%;
+    min-height: 100vh;
+ 
+}
+.sidebar h3{
+    margin: 5% 5%;
+    color: red;
+}
+
+.sidebar p{
+    margin: 0% 5%;
+    background-color:gainsboro;
+    line-height: 1.5rem;
+}
+
+.content{
+    width: 60%;
+    min-height: 100vh;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.content  h1  {
+    margin: 10% 0px 3% 2%;
+    background-color: white;
+    float: left;
+}
+
+.btn{
+    float: right;
+    background-color: rgb(125, 185, 4);
+    color: white;
+    padding: 8px 40px;
+    border-radius: 20px;
+    margin: 10% 2% 3% 0%;
+    font-weight: bold;
+}
+.content div,p{
+    background-color: white;
+    margin: 18% 2% 2% 1%;
+    text-align: justify;
+}
